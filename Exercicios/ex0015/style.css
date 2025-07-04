@@ -1,0 +1,23 @@
+@charset "UTF-8";   
+body{
+    background-color: #121212;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: #E0E0E0 ;
+    background-color: #373737;
+    transition: 1s;
+}
+h1:hover{
+    font-size: 3em;
+    
+
+}
+h2{
+    color: #B0B0B0 ;
+}
+p{
+    text-align: justify;
+    color: #E0E0E0;
+}

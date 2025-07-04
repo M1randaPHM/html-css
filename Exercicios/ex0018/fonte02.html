@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'danger';
+            src: url('fonts/Another Danger - Demo.otf') format(opentype), url('fonts/Another Danger Slanted - Demo.otf') format(opentype);
+            font-weight: normal;
+            font-style: normal;
+
+            /* Tipos de format()
+                -opentype (otf)
+                -truetype (ttf)
+                -embedded-opentype
+                truetype-aat (Apple Advanced Typography)
+                sfg
+            */
+
+        }
+        body {
+            font-family: 'danger', Times, serif;
+        }
+
+        h1 {
+            font-family: 'danger', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem architecto quisquam quaerat ratione voluptatibus voluptate, minus corporis quae et? Consectetur pariatur cupiditate modi vitae doloremque atque, doloribus ex placeat temporibus!</p>
+</body>
+</html>
