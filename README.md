@@ -1,3 +1,3 @@
 # html-css
 Curso de HTML 5 e CSS 3
-Pedro Henrique Miranda
+# Estou aprendendo a criar e gerenciar repositórios
