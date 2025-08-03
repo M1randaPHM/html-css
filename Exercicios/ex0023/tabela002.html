@@ -13,10 +13,18 @@
             text-align: center;
         }
 
+
         table {
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #545454;
         }
 
         td, th {
@@ -50,6 +58,7 @@
     </style>
 </head>
 <body>
+
     <h1>Uso de tabelas grandes</h1>
     <!--
     ANATOMIA  PARA TABELAS GRANDES
