@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr);
+    gap: 5px;
+}
+
+div {
+    text-align: center;
+}
+
+.caixa1 {
+    background-color: rgb(255, 210, 127);
+    border: 5px solid orange;
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+.caixa2 {
+    background-color: rgb(255, 108, 108);
+    border: 5px solid red;
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.caixa3 {
+    background-color: rgb(118, 182, 255);
+    border: 5px solid rgb(0, 119, 255);
+    grid-area: 2 / 3 / 4 / 5;
+}
